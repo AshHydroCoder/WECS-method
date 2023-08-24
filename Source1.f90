@@ -26,14 +26,8 @@ program WECS
         end subroutine MatrixInverse    
     end interface
     
-    print *, "Delete Quotation Mark when entering file path"
-    print *, "Enter File path to Rainfall data"
-
     open(1, file = "E:\Fortran\Exercies\R50.txt")
-
-
     open(2,file = "E:\Fortran\Exercies\Q50.txt")
-
     open(3,file = "E:\Fortran\Exercies\A.txt")
 
     print *, "Enter Number of ordinates"
